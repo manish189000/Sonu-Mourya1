@@ -1,313 +1,90 @@
-// // import React from "react";
-// // import Headerts from "../Navcomp/Headert";
-// // import Footer from "../Footer";
-// // const Contact = () => {
-// //   return (
-// //     <div>
-// //       return (
-// //       <Headerts />
-// //       <main className="relative py-28 bg-[#395314]">
-// //         <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
-// //           <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
-// //             <h3 className="text-cyan-400 font-semibold">Contact</h3>
-// //             <p className="text-white text-3xl font-semibold sm:text-4xl">
-// //               Get in touch
-// //             </p>
-// //             <p className="text-gray-300">
-// //               We’d love to hear from you! Please fill out the form bellow.
-// //             </p>
-// //           </div>
-// //           <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
-// //             <form onSubmit={(e) => e.preventDefault()} className="space-y-5">
-// //               <div>
-// //                 <label className="font-medium">Full name</label>
-// //                 <input
-// //                   type="text"
-// //                   required
-// //                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-// //                 />
-// //               </div>
-// //               <div>
-// //                 <label className="font-medium">Email</label>
-// //                 <input
-// //                   type="email"
-// //                   required
-// //                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-// //                 />
-// //               </div>
-// //               <div>
-// //                 <label className="font-medium">Phone number</label>
-// //                 <div className="relative mt-2">
-// //                   <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
-// //                     <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-// //                       <option>US</option>
-// //                       <option>ES</option>
-// //                       <option>MR</option>
-// //                     </select>
-// //                   </div>
-// //                   <input
-// //                     type="number"
-// //                     placeholder="+1 (555) 000-000"
-// //                     required
-// //                     className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-// //                   />
-// //                 </div>
-// //               </div>
-// //               <div>
-// //                 <label className="font-medium">Message</label>
-// //                 <textarea
-// //                   required
-// //                   className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-// //                 ></textarea>
-// //               </div>
-// //               <button className="w-full px-4 py-2 text-white font-medium bg-[#1d2e05]-800 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150">
-// //                 Submit
-// //               </button>
-// //             </form>
-// //           </div>
-// //         </div>
-// //         <div
-// //           className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
-// //           style={{
-// //             background:
-// //               "linear-gradient(106.89deg, #f4fee7 0%, #d3f99d 25%, #9de635 50%, #4f7c0f 75%, #395314 100%)",
-// //           }}
-// //         ></div>
-// //       </main>
-// //       )
-// //       <Footer />
-// //     </div>
-// //   );
-// // };
-
-// // export default Contact;
-
-// import React from "react";
-// import Headerts from "../Navcomp/Headert";
-// import Footer from "../Footer";
-
-// const Contact = () => {
-//   return (
-//     <div>
-//       <Headerts />
-//       <main className="relative py-28 bg-[#395314]">
-//         <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
-//           <div className="flex flex-wrap">
-//             <div className="w-full lg:w-1/2 px-4">
-//               <iframe
-//                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.95373631531837!3d-37.816279579751575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d3c7e0b0a29b!2sGoogle!5e0!3m2!1sen!2sus!4v1624255363351!5m2!1sen!2sus"
-//                 width="100%"
-//                 height="100%"
-//                 style={{ border: 0 }}
-//                 allowFullScreen=""
-//                 loading="lazy"
-//                 title="Google Maps"
-//               ></iframe>
-//             </div>
-//             <div className="w-full lg:w-1/2 mt-12 lg:mt-0 px-4">
-//               <div className="max-w-lg space-y-3 sm:mx-auto sm:text-center">
-//                 <h3 className="text-cyan-400 font-semibold">Contact</h3>
-//                 <p className="text-white text-3xl font-semibold sm:text-4xl">
-//                   Get in touch
-//                 </p>
-//                 <p className="text-gray-300">
-//                   We’d love to hear from you! Please fill out the form below.
-//                 </p>
-//               </div>
-//               <div className="mt-12 mx-auto p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
-//                 <form
-//                   onSubmit={(e) => e.preventDefault()}
-//                   className="space-y-5"
-//                 >
-//                   <div>
-//                     <label className="font-medium">Full name</label>
-//                     <input
-//                       type="text"
-//                       required
-//                       className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-//                     />
-//                   </div>
-//                   <div>
-//                     <label className="font-medium">Email</label>
-//                     <input
-//                       type="email"
-//                       required
-//                       className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-//                     />
-//                   </div>
-//                   <div>
-//                     <label className="font-medium">Phone number</label>
-//                     <div className="relative mt-2">
-//                       <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
-//                         <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-//                           <option>US</option>
-//                           <option>ES</option>
-//                           <option>MR</option>
-//                         </select>
-//                       </div>
-//                       <input
-//                         type="number"
-//                         placeholder="+1 (555) 000-000"
-//                         required
-//                         className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-//                       />
-//                     </div>
-//                   </div>
-//                   <div>
-//                     <label className="font-medium">Message</label>
-//                     <textarea
-//                       required
-//                       className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-//                     ></textarea>
-//                   </div>
-//                   <button className="w-full px-4 py-2 text-white font-medium bg-[#1d2e05]-800 hover:bg-gray-700 active:bg-gray-900 rounded-lg duration-150">
-//                     Submit
-//                   </button>
-//                 </form>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <div
-//           className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
-//           style={{
-//             background:
-//               "linear-gradient(106.89deg, #f4fee7 0%, #d3f99d 25%, #9de635 50%, #4f7c0f 75%, #395314 100%)",
-//           }}
-//         ></div>
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// };
-
-// export default Contact;
-
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import Headerts from "../Navcomp/Headert";
+import React, { useState } from "react";
+import { FaEnvelope } from "react-icons/fa";
+import Navbar from "../Navcomp/Headert";
 import Footer from "../Footer";
+import ContactMe from "../Contactme/Contactme";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    phoneNumber: "",
+    message: "",
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    const newErrors = {};
+    if (!formData.fullName) newErrors.fullName = "Full name is required";
+    if (!formData.email) {
+      newErrors.email = "Email is required";
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email address is invalid";
+    }
+    if (!formData.phoneNumber)
+      newErrors.phoneNumber = "Phone number is required";
+    if (!formData.message) newErrors.message = "Message is required";
+    return newErrors;
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const validationErrors = validate();
+    if (Object.keys(validationErrors).length === 0) {
+      // Handle form submission logic here
+      console.log(formData);
+    } else {
+      setErrors(validationErrors);
+    }
+  };
+
   return (
-    <div>
-      <Headerts />
-      <main className="relative py-28 bg-[#395314]">
+    <>
+      <Navbar />
+
+      <main className="relative py-28 bg-black">
         <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
-          <div className="flex flex-wrap">
-            <div className="w-full  lg:w-1/2 px-4">
+          <div className="flex flex-col items-center space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
+            <FaEnvelope className="text-6xl text-[#B84FFD]" />
+            <h3 className="text-[#CA8A04] font-semibold">Contact</h3>
+            <p className="text-white text-3xl font-semibold sm:text-4xl">
+              Get in touch
+            </p>
+            <p className="text-gray-300 max-w-md">
+              We’d love to hear from you! Please fill out the form below with
+              your details and message.
+            </p>
+          </div>
+          <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between mt-12">
+            <div className="w-full lg:w-1/2 px-4">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.83543450937!2d144.95373631531837!3d-37.816279579751575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d3c7e0b0a29b!2sGoogle!5e0!3m2!1sen!2sus!4v1624255363351!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0, borderRadius: "22px" }}
+                title="Google Map"
+                className="w-full h-full rounded-lg lg:min-h-[500px]"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0868365240314!2d-122.4194154846813!3d37.77492967975881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085817c8d7aab69%3A0xb349fe4c52d5bdb7!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1614123202781!5m2!1sen!2sin"
                 allowFullScreen=""
                 loading="lazy"
-                title="Google Maps"
-                border-radius="22px"
               ></iframe>
             </div>
-            <div className="w-full lg:w-1/2 mt-12 lg:mt-0 px-4">
-              <div className="max-w-lg space-y-3 sm:mx-auto sm:text-center">
-                <h3 className="text-white text-2xl font-semibold">Contact</h3>
-                <p className="text-white text-3xl font-semibold sm:text-4xl">
-                  Get in touch
-                </p>
-                <p className="text-gray-300">
-                  We’d love to hear from you! Please fill out the form below.
-                </p>
-                <div className="flex justify-center space-x-6 mt-4">
-                  <a href="tel:+15550000000" className="text-white">
-                    <FontAwesomeIcon icon={faPhone} size="lg" />
-                    <span className="ml-2">(555) 000-0000</span>
-                  </a>
-                </div>
-                <div className="flex justify-center space-x-6 mt-4">
-                  <a href="https://facebook.com" className="text-white">
-                    <FontAwesomeIcon icon={faFacebook} size="lg" />
-                  </a>
-                  <a href="https://twitter.com" className="text-white">
-                    <FontAwesomeIcon icon={faTwitter} size="lg" />
-                  </a>
-                  <a href="https://instagram.com" className="text-white">
-                    <FontAwesomeIcon icon={faInstagram} size="lg" />
-                  </a>
-                  <a href="https://linkedin.com" className="text-white">
-                    <FontAwesomeIcon icon={faLinkedin} size="lg" />
-                  </a>
-                </div>
-              </div>
-              <div className="mt-12 mx-auto p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
-                <form
-                  onSubmit={(e) => e.preventDefault()}
-                  className="space-y-5"
-                >
-                  <div>
-                    <label className="font-medium">Full name</label>
-                    <input
-                      type="text"
-                      required
-                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                    />
-                  </div>
-                  <div>
-                    <label className="font-medium">Email</label>
-                    <input
-                      type="email"
-                      required
-                      className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                    />
-                  </div>
-                  <div>
-                    <label className="font-medium">Phone number</label>
-                    <div className="relative mt-2">
-                      <div className="absolute inset-y-0 left-3 my-auto h-6 flex items-center border-r pr-2">
-                        <select className="text-sm bg-transparent outline-none rounded-lg h-full">
-                          <option>US</option>
-                          <option>ES</option>
-                          <option>MR</option>
-                        </select>
-                      </div>
-                      <input
-                        type="number"
-                        placeholder="+1 (555) 000-000"
-                        required
-                        className="w-full pl-[4.5rem] pr-3 py-2 appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                      />
-                    </div>
-                  </div>
-                  <div>
-                    <label className="font-medium">Message</label>
-                    <textarea
-                      required
-                      className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"
-                    ></textarea>
-                  </div>
-                  <button className="w-full px-4 py-2 text-white font-medium bg-[#65A30D]  rounded-lg duration-150">
-                    Submit
-                  </button>
-                </form>
-              </div>
-            </div>
+
+            <ContactMe />
           </div>
         </div>
         <div
           className="absolute inset-0 blur-[118px] max-w-lg h-[800px] mx-auto sm:max-w-3xl sm:h-[400px]"
           style={{
             background:
-              "linear-gradient(106.89deg, #f4fee7 0%, #d3f99d 25%, #9de635 50%, #4f7c0f 75%, #395314 100%)",
+              "linear-gradient(106.89deg, #CA8A04 15.73%, ##4C1D95 15.74%, #CA8A04 56.49%, #4C1D95 115.91%)",
           }}
         ></div>
       </main>
       <Footer />
-    </div>
+    </>
   );
 };
 

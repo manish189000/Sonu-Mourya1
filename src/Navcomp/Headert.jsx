@@ -5,22 +5,15 @@ const Headerts = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white w-full border-b md:border-0 fixed top-0 z-50">
+    <nav className="bg-black text-white w-full border-b md:border-0 fixed top-0 z-50">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <NavLink to="/">
-            {/* <img
-              src="https://www.floatui.com/logo.svg"
-              width={120}
-              height={50}
-              alt="Float UI logo"
-            /> */}
-
-            <h1 className=" text-2xl">Logo</h1>
+            <h1 className="text-2xl font-Arial font-black ">Sonu Mourya</h1>
           </NavLink>
           <div className="md:hidden">
             <button
-              className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
+              className="text-white outline-none p-2 rounded-md focus:border-gray-400 focus:border"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? (
@@ -60,18 +53,18 @@ const Headerts = () => {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-            <li className="hover:text-indigo-200">
+          <ul className="justify-center font-Arial font-bold items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <li className="hover:text-[#7E25CA]">
               <NavLink
                 to="/"
                 exact
                 className="transition duration-300 ease-in-out"
-                activeClassName="text-indigo-200"
+                activeClassName="font-Arial"
               >
                 Home
               </NavLink>
             </li>
-            <li className="hover:text-indigo-200">
+            <li className="hover:text-[#7E25CA]">
               <NavLink
                 to="/about"
                 className="transition duration-300 ease-in-out"
@@ -80,20 +73,28 @@ const Headerts = () => {
                 About
               </NavLink>
             </li>
-            <li className="hover:text-indigo-200">
+            <li className="hover:text-[#7E25CA]">
               <NavLink
-                to="/portfolio"
-                className="transition duration-300 ease-in-out"
+                to="/vfx"
+                className="transition duration-300 font-Arial ease-in-out"
                 activeClassName="text-indigo-200"
               >
-                Portfolio
+                VFX
               </NavLink>
             </li>
-
-            <li className="hover:text-indigo-200">
+            <li className="hover:text-[#7E25CA]">
+              <NavLink
+                to="/graphicdesigner"
+                className="transition duration-300  font-Arial ease-in-out"
+                activeClassName="text-indigo-200"
+              >
+                Graphic Designer
+              </NavLink>
+            </li>
+            <li className="hover:text-[#7E25CA]">
               <NavLink
                 to="/contact"
-                className="transition duration-300 ease-in-out"
+                className="transition duration-300 font-Arial ease-in-out"
                 activeClassName="text-indigo-200"
               >
                 Contact
@@ -103,10 +104,10 @@ const Headerts = () => {
         </div>
         <div className="hidden md:inline-block">
           <NavLink
-            to="/get-started"
-            className="py-3 px-4 transition duration-300 ease-in-out bg-[#65A30D] rounded-md shadow text-white"
+            to="/contact"
+            className="py-3 px-4 transition duration-300  font-black font-Arial ease-in-out bg-[#b84ffd] rounded-md shadow text-white"
           >
-            Get Started
+            Contact Us
           </NavLink>
         </div>
       </div>

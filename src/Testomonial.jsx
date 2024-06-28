@@ -2,39 +2,39 @@ import React from "react";
 const testimonials = [
   {
     avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-    name: "Martin escobar",
-    title: "Founder of meta",
+    name: "Martin Escobar",
+    title: "Founder of Meta",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae.",
+      "The VFX and graphic design team transformed our vision into reality. Their creativity and attention to detail are unparalleled.",
   },
   {
     avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-    name: "Simon andrew",
-    title: "Software engineer",
+    name: "Simon Andrew",
+    title: "Software Engineer",
     quote:
-      "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+      "The graphic design solutions provided were innovative and visually stunning. They have a knack for making complex ideas look effortless.",
   },
   {
     avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-    name: "Micheal worin",
-    title: "Product designer",
+    name: "Michael Worin",
+    title: "Product Designer",
     quote:
-      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain.",
+      "The VFX work added an entirely new dimension to our project. The team's expertise in graphic design is evident in every frame.",
   },
 ];
 
 const Testmonial = () => {
   return (
-    <section className="relative pb-10  ">
+    <section className="relative  bg-black pb-10  ">
       <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl sm:text-center md:mx-auto">
-          <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            Hear from our customers
+          <h3 className="text-[#CA8A04]  font-Arial pt-8 text-3xl font-semibold sm:text-4xl">
+            Hear from our clients
           </h3>
-          <p className="mt-3  text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est
-            hendrerit, porta nunc vitae, gravida justo. Nunc fermentum magna
-            lorem, euismod volutpat arcu volutpat et.
+          <p className="mt-3  font-Arial text-white">
+            Discover what our clients have to say about our VFX and graphic
+            design services. From stunning visuals to seamless integrations, we
+            bring your ideas to life.
           </p>
         </div>
         <div className="mt-12">
@@ -43,7 +43,7 @@ const Testmonial = () => {
               <li key={idx} className="bg-white rounded-xl border shadow-md">
                 <div className="p-4">
                   <svg
-                    className="w-9 h-9 text-gray-300"
+                    className="w-9 h-9 text-[#8A54E3]"
                     viewBox="0 0 35 35"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,20 +56,20 @@ const Testmonial = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-gray-800 text-lg font-semibold px-4 py-1">
+                    <p className="text-[#8A54E3] text-lg font-semibold px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>
-                  <div className="flex items-center gap-x-4 p-4 mt-6 bg-[#81cc16]">
+                  <div className="flex items-center gap-x-4 p-4 rounded-xl mt-6 bg-[#8125D1]">
                     <img
                       src={item.avatar}
-                      className="w-16 h-16 rounded-full border-2 border-black"
+                      className="w-16 h-16 rounded-full border-2 border-[#8125D1]"
                     />
                     <div>
-                      <span className="block text-gray-800 font-semibold">
+                      <span className="block font-Arial text-white font-semibold">
                         {item.name}
                       </span>
-                      <span className="block text-black text-sm mt-0.5">
+                      <span className="block font-mono text-white text-sm mt-0.5">
                         {item.title}
                       </span>
                     </div>
@@ -84,8 +84,7 @@ const Testmonial = () => {
         className="absolute top-0 w-full h-[350px]"
         style={{
           background:
-            // "linear-gradient(to right, #f4fee7, #a8e6cf, #dcedc1, #81cc16, #b7f264)",
-            "#f4fee7",
+            "linear-gradient(to right, #000000, #000000, #000000, #000000, #000000)",
         }}
       ></div>
     </section>
