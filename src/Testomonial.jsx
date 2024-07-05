@@ -43,7 +43,7 @@ const Testmonial = () => {
               <li key={idx} className="bg-white rounded-xl border shadow-md">
                 <div className="p-4">
                   <svg
-                    className="w-9 h-9 text-[#8A54E3]"
+                    className="w-9 h-9 text-[#CA8A04]"
                     viewBox="0 0 35 35"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -56,14 +56,14 @@ const Testmonial = () => {
                 </div>
                 <figure>
                   <blockquote>
-                    <p className="text-[#8A54E3] text-lg font-semibold px-4 py-1">
+                    <p className="text-[#CA8A04] text-lg font-semibold px-4 py-1">
                       {item.quote}
                     </p>
                   </blockquote>
-                  <div className="flex items-center gap-x-4 p-4 rounded-xl mt-6 bg-[#8125D1]">
+                  <div className="flex items-center gap-x-4 p-4 rounded-xl mt-6 bg-[#CA8A04]">
                     <img
                       src={item.avatar}
-                      className="w-16 h-16 rounded-full border-2 border-[#8125D1]"
+                      className="w-16 h-16 rounded-full border-2 border-[#CA8A04]"
                     />
                     <div>
                       <span className="block font-Arial text-white font-semibold">

@@ -51,7 +51,7 @@ const Contact = () => {
       <main className="relative py-28 bg-black">
         <div className="relative z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
           <div className="flex flex-col items-center space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
-            <FaEnvelope className="text-6xl text-[#B84FFD]" />
+            <FaEnvelope className="text-6xl text-[#CA8A04]" />
             <h3 className="text-[#CA8A04] font-semibold">Contact</h3>
             <p className="text-white text-3xl font-semibold sm:text-4xl">
               Get in touch

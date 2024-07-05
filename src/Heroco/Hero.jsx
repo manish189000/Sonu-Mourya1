@@ -37,17 +37,14 @@ function Hero() {
                     <h2 className=" text-yellow-600 text-5xl font-Arial  font-bold text-center">
                       Discover the Magic VFX and Graphic Design
                     </h2>
-                    <p className="max-w-2xl text-xl pt-4 font-mono mx-auto text-white">
-                      Step into the world of stunning visual effects and
-                      innovative graphic designs.
-                    </p>
+                    
                   </div>
                   <form
                     onSubmit={(e) => e.preventDefault()}
                     className="justify-center items-center gap-x-3 sm:flex"
                   >
                     <button
-                      className="flex items-center font-black font-Arial justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white bg-[#B84FFD] hover:bg-[#d9f99d] active:bg-[#d9f99d] duration-150 rounded-lg sm:mt-0 sm:w-auto"
+                      className="flex items-center font-black font-Arial justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white bg-[#CA8A04] hover:bg-[#E4E4E4] active:bg-[#CA8A04] duration-150 rounded-lg sm:mt-0 sm:w-auto"
                       onClick={() => navigate("/about")}
                     >
                       Get started

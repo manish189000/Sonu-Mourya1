@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ContactMe = () => {
   return (
-    <div className=" py-12 bg-black text-white flex  justify-center ">
+    <div className="py-12 bg-black text-white flex justify-center">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
@@ -19,31 +19,37 @@ const ContactMe = () => {
         <div className="space-y-4">
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="flex items-center justify-center space-x-4 bg-violet-900 p-3 rounded-lg shadow-lg"
+            className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaEnvelope className="text-violet-600 text-2xl" />
-            <a href="mailto:mouryasonu07@gmail.com" className="text-lg">
+            <FaEnvelope className="text-[#CA8A04] text-2xl" />
+            <a
+              href="mailto:mouryasonu07@gmail.com"
+              className="text-lg text-white"
+            >
               mouryasonu07@gmail.com
             </a>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="flex items-center justify-center space-x-4 bg-violet-900 p-3 rounded-lg shadow-lg"
+            className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaLinkedin className="text-violet-600 text-2xl" />
+            <FaLinkedin className="text-[#CA8A04] text-2xl" />
             <a
               href="https://www.linkedin.com/in/sonu-mourya-55384291/"
-              className="text-lg"
+              className="text-lg text-white"
             >
               LinkedIn: Sonu Mourya
             </a>
           </motion.div>
           <motion.div
             whileHover={{ scale: 1.1 }}
-            className="flex items-center justify-center space-x-4 bg-violet-900 p-3 rounded-lg shadow-lg"
+            className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaInstagram className="text-violet-600 text-2xl" />
-            <a href="https://www.instagram.com/sonumourya" className="text-lg">
+            <FaInstagram className="text-[#CA8A04] text-2xl" />
+            <a
+              href="https://www.instagram.com/sonumourya"
+              className="text-lg text-white"
+            >
               Instagram: @sonumourya
             </a>
           </motion.div>

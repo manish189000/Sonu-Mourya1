@@ -95,7 +95,7 @@ const Header = () => {
                 Home
               </NavLink>
             </li>
-            <li className="hover:text-[#b84ffd]">
+            <li className="hover:text-yellow-600">
               <NavLink
                 to="/about"
                 className="transition duration-300 ease-in-out"
@@ -104,7 +104,7 @@ const Header = () => {
                 About
               </NavLink>
             </li>
-            <li className="hover:text-[#b84ffd]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/portfolio"
                 className="transition duration-300 ease-in-out"
@@ -113,7 +113,7 @@ const Header = () => {
                 VFX
               </NavLink>
             </li>
-            <li className="hover:text-[#b84ffd]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/contact"
                 className="transition duration-300 ease-in-out"
@@ -127,7 +127,7 @@ const Header = () => {
         <div className="hidden md:inline-block">
           <NavLink
             to="/get-started"
-            className="py-3 px-4 transition duration-300 ease-in-out bg-[#b84ffd]  rounded-md shadow text-white"
+            className="py-3 px-4 transition duration-300 ease-in-out bg-[#CA8A04]  rounded-md shadow text-white"
           >
             Get Started
           </NavLink>

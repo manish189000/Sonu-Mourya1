@@ -2,14 +2,10 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 
 const clients = [
-  { name: "Quantalgo AI" },
-  { name: "Simplomatic India" },
-  { name: "Woozoo LLC" },
-  { name: "BS Consultant LLC" },
-  { name: "Endeavour Clinic" },
-  { name: "Simplomatic Technologies LLC" },
-  { name: "Rangi Renovation" },
-  { name: "Muskaan Beauty" },
+  { name: "Redchillies.vfx" },
+  { name: "Undercover Productions ltd" },
+  { name: "Rocket science vfx" },
+  { name: "Jamfilled. Media" },
   // Add more clients as needed
 ];
 
@@ -62,7 +58,7 @@ const OurClients = () => {
         }}
       >
         <h2 className="text-3xl font-Arial  font-extrabold text-center text-[#CA8A04] mb-8">
-          Our Clients
+        Part Of Projects
         </h2>
         <div className="parentlogo font-lato w-full mx-auto flex justify-center">
           <Marquee gradient={false} speed={50}>

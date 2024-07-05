@@ -1,6 +1,6 @@
 import React from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
-import journey from "./assets/journey.webp";
+import journey from "./assets/g20.jpg";
 import { motion } from "framer-motion";
 
 const VisualArtsSection = () => {

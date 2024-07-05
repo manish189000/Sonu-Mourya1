@@ -115,7 +115,7 @@ const Graphics = () => {
       <div className="text-center mb-8">
         <h1 className="text-3xl  text-white  pt-24 font-bold mb-2">
           Welcome to the Graphics{" "}
-          <span className="text-[#B84FFD]"> design Gallery</span>
+          <span className="text-[#CA8A04]"> design Gallery</span>
         </h1>
         <p className="text-lg text-white">
           Explore our portfolio showcasing various graphic designs, videos, and
@@ -131,7 +131,7 @@ const Graphics = () => {
             <div className="flex-grow overflow-hidden">
               <GalleryItem item={item} />
             </div>
-            <p className="mt-2 text-center text-sm text-[#B84FFD]">
+            <p className="mt-2 text-center text-sm text-[#CA8A04]">
               {item.title}
             </p>
           </div>

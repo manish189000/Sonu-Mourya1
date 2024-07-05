@@ -9,7 +9,7 @@ const Headerts = () => {
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <NavLink to="/">
-            <h1 className="text-2xl font-Arial font-black ">Sonu Mourya</h1>
+            <h1 className="text-3xl font-Arial font-black ">Sonu Mourya</h1>
           </NavLink>
           <div className="md:hidden">
             <button
@@ -54,7 +54,7 @@ const Headerts = () => {
           }`}
         >
           <ul className="justify-center font-Arial font-bold items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-            <li className="hover:text-[#7E25CA]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/"
                 exact
@@ -64,7 +64,7 @@ const Headerts = () => {
                 Home
               </NavLink>
             </li>
-            <li className="hover:text-[#7E25CA]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/about"
                 className="transition duration-300 ease-in-out"
@@ -73,7 +73,7 @@ const Headerts = () => {
                 About
               </NavLink>
             </li>
-            <li className="hover:text-[#7E25CA]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/vfx"
                 className="transition duration-300 font-Arial ease-in-out"
@@ -82,7 +82,7 @@ const Headerts = () => {
                 VFX
               </NavLink>
             </li>
-            <li className="hover:text-[#7E25CA]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/graphicdesigner"
                 className="transition duration-300  font-Arial ease-in-out"
@@ -91,7 +91,7 @@ const Headerts = () => {
                 Graphic Designer
               </NavLink>
             </li>
-            <li className="hover:text-[#7E25CA]">
+            <li className="hover:text-[#CA8A04]">
               <NavLink
                 to="/contact"
                 className="transition duration-300 font-Arial ease-in-out"
@@ -105,7 +105,7 @@ const Headerts = () => {
         <div className="hidden md:inline-block">
           <NavLink
             to="/contact"
-            className="py-3 px-4 transition duration-300  font-black font-Arial ease-in-out bg-[#b84ffd] rounded-md shadow text-white"
+            className="py-3 px-4 transition duration-300  font-black font-Arial ease-in-out bg-[#CA8A04] rounded-md shadow text-white"
           >
             Contact Us
           </NavLink>

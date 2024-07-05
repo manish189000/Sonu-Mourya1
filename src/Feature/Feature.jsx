@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Feature1 from "../assets/Vfx-feature.webp";
+import video5 from "../vidovfx/pyro and dust.mp4";
 import Feature2 from "../assets/graphic-feature.webp";
 
 const Feature = () => {
@@ -147,17 +147,20 @@ const Feature = () => {
               </div>
               <Link
                 to="/vfx"
-                className="inline-block font-lato mt-8 px-6 py-2 text-sm font-medium text-center text-white bg-[#8328D2] rounded-md hover:bg-[#6b1bb3] transition duration-300"
+                className="inline-block font-lato mt-8 px-6 py-2 text-sm font-medium text-center text-white bg-[#CA8A04] rounded-md hover:bg-[#E4E4E4] transition duration-300"
               >
                 Explore VFX Features
               </Link>
             </div>
             <div aria-hidden="true" className="mt-10 lg:mt-0">
-              <img
-                src={Feature1}
-                alt="VFX"
-                className="mx-auto dark:bg-gray-500 rounded-lg shadow-lg"
-              />
+            <video
+              src={video5} 
+                className="mx-auto dark:bg-gray-500 rounded-lg shadow-lg" 
+                loop 
+                autoPlay 
+                muted // Optional: Mute the video if needed      
+                >
+             </video>
             </div>
           </div>
           <div>
@@ -290,7 +293,7 @@ const Feature = () => {
                 </div>
                 <Link
                   to="/graphicdesigner"
-                  className="inline-block font-lato mt-8 px-6 py-2 text-sm font-medium text-center text-white bg-[#8328D2] rounded-md hover:bg-[#6b1bb3] transition duration-300"
+                  className="inline-block font-lato mt-8 px-6 py-2 text-sm font-medium text-center text-white bg-[#CA8A04] rounded-md hover:bg-[#E4E4E4] transition duration-300"
                 >
                   Explore Graphic Features
                 </Link>

@@ -79,14 +79,23 @@ const VFXHero = () => {
           className="w-full h-full object-cover object-center"
           style={{ height: "100vh" }}
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center p-4">
-          <h1 className="text-4xl font-Arial text-[#CA8A04] md:text-6xl font-bold mb-4 text-center">
-            {videos[currentIndex].title}
-          </h1>
-          <p className="text-lg md:text-2xl mb-8 text-center">
-            {videos[currentIndex].description}
-          </p>
-        </div>
+     <div className="absolute inset-0 bg-black bg-opacity-50 p-4 flex flex-col justify-center items-center">
+  <div className="text-white text-opacity-50 mt-20">
+    Not for Public use
+  </div>
+</div>
+
+
+
+     <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-start justify-end p-4">
+        <h1 className="text-4xl font-Arial text-[#CA8A04] md:text-6xl font-bold mb-4">
+          {videos[currentIndex].title}
+        </h1>
+        <p className="text-lg md:text-2xl mb-8">
+          {videos[currentIndex].description}
+        </p>
+      </div>
+
       </div>
     </div>
   );

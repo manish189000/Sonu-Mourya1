@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, px } from "framer-motion";
 import Abouts from "../assets/Home-About-Sonu-Mourya.png";
 
 const Aboutss = () => {
   return (
-    <div className="bg-gradient-to-r from-[black] via-[#000000] to-[#000000] min-h-screen flex items-center justify-center">
+    <div className="bg-gradient-to-r from-[black] via-[#CA8A04] to-[#000000] min-h-screen flex items-center justify-center">
       <section className="my-24 mx-auto max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8 bg-white bg-opacity-80 rounded-lg shadow-lg">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -46,14 +46,19 @@ const Aboutss = () => {
           </div>
         </motion.div>
         <motion.div
+          
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="flex-1 text-center   px-4 py-14 mt-4 lg:mt-0 lg:ml-3"
+          className="flex-1 text-center   p-2  lg:mt-0 lg:ml-3 overflow-hidden border-solid border-2 border-black-600"
+          
         >
           <img
             src={Abouts}
-            className="w-full mx-auto mt-3 sm:w-10/12 lg:w-full rounded-lg shadow-md"
+            style={{height: "100%", width: "100%"}}
+            className="rounded-lg shadow-md  "
+            
+            
           />
         </motion.div>
       </section>
