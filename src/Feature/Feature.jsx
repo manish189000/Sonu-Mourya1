@@ -29,7 +29,7 @@ const Feature = () => {
               <div className="mt-12 space-y-12">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -59,7 +59,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -88,7 +88,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -117,7 +117,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -153,14 +153,13 @@ const Feature = () => {
               </Link>
             </div>
             <div aria-hidden="true" className="mt-10 lg:mt-0">
-            <video
-              src={video5} 
-                className="mx-auto dark:bg-gray-500 rounded-lg shadow-lg" 
-                loop 
-                autoPlay 
-                muted // Optional: Mute the video if needed      
-                >
-             </video>
+              <video
+                src={video5}
+                className="mx-auto dark:bg-gray-500 rounded-lg shadow-lg"
+                loop
+                autoPlay
+                muted // Optional: Mute the video if needed
+              ></video>
             </div>
           </div>
           <div>
@@ -176,7 +175,7 @@ const Feature = () => {
                 <div className="mt-12 space-y-12">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -205,7 +204,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -234,7 +233,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600 dark:text-gray-50">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04] dark:text-gray-50">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -263,7 +262,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-600  text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md dark:bg-[#CA8A04]  text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

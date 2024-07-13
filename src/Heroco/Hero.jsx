@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import p1 from "../assets/Vfx-hero.webp";
-import p2 from "../assets/graphic-hero.webp";
-import p4 from "../assets/vfx2-hero.webp";
-import p6 from "../assets/graphic2-hero.webp";
+import p1 from "../assets/Grid2.jpg";
+import p4 from "../assets/g18.jpg";
+import p2 from "../assets/Grid1.jpg";
+import p3 from "../assets/g7.jpg";
 
 function Hero() {
   const [selectedImage, setSelectedImage] = useState(0);
-  const [allImages, setAllImages] = useState([p1, p2, p4, p6]);
+  const [allImages, setAllImages] = useState([p1, p4, p2, p3]);
   const navigate = useNavigate();
 
   useEffect(() => {

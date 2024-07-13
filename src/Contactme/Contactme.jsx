@@ -21,7 +21,7 @@ const ContactMe = () => {
             whileHover={{ scale: 1.1 }}
             className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaEnvelope className="text-[#CA8A04] text-2xl" />
+            <FaEnvelope className="text-white text-2xl" />
             <a
               href="mailto:mouryasonu07@gmail.com"
               className="text-lg text-white"
@@ -33,7 +33,7 @@ const ContactMe = () => {
             whileHover={{ scale: 1.1 }}
             className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaLinkedin className="text-[#CA8A04] text-2xl" />
+            <FaLinkedin className="text-white text-2xl" />
             <a
               href="https://www.linkedin.com/in/sonu-mourya-55384291/"
               className="text-lg text-white"
@@ -45,7 +45,7 @@ const ContactMe = () => {
             whileHover={{ scale: 1.1 }}
             className="flex items-center justify-center space-x-4 bg-[#CA8A04] p-3 rounded-lg shadow-lg"
           >
-            <FaInstagram className="text-[#CA8A04] text-2xl" />
+            <FaInstagram className="text-white text-2xl" />
             <a
               href="https://www.instagram.com/sonumourya"
               className="text-lg text-white"

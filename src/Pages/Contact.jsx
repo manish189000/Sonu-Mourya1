@@ -66,7 +66,7 @@ const Contact = () => {
               <iframe
                 title="Google Map"
                 className="w-full h-full rounded-lg lg:min-h-[500px]"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0868365240314!2d-122.4194154846813!3d37.77492967975881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085817c8d7aab69%3A0xb349fe4c52d5bdb7!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1614123202781!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5783.0549511896625!2d-80.28099868778231!3d43.55389087098651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b907673ec2217%3A0x91df120ee1d7ddd6!2s28%20Brentwood%20Dr%2C%20Guelph%2C%20ON%20N1H%205M7!5e0!3m2!1sen!2sca!4v1720367377479!5m2!1sen!2sca"
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
